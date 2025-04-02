@@ -1,75 +1,63 @@
-# Indian Cities Route Optimizer & Dijkstra's Visualization
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.0.0-brightgreen)
+# ** SmartRoute - Indian Cities Optimizer & Dijkstra's Visualization**  
+ **SmartRoute** is a powerful web application that helps users find the shortest path between **Indian cities** using **Dijkstra's Algorithm**. It not only computes the optimal route but also provides an **interactive visualization** of how the algorithm works!  
 
-## Overview
+---
 
-This project is a web application that allows users to find the shortest path between Indian cities using Dijkstra's algorithm. It provides a visualization of the algorithm's process and displays the optimal route on an interactive map.
+## ** Features**  
+**Route Optimization:** Quickly find the shortest path between two Indian cities.  
+**Interactive Map:** The route is dynamically displayed using **Folium**.  
+**Dijkstra’s Visualization:** Step-by-step animation of how the algorithm finds the shortest path.  
+**Graph Representation:** A visual representation of cities and their connections.  
+**Save & Load Graphs:** Store custom routes and reload them anytime.  
 
-## Features
+---
 
-- **Route Optimization**: Calculate the shortest path between two cities.
-- **Interactive Map**: Visualize the route on a map using Folium.
-- **Graph Visualization**: View and interact with the graph representation of cities and routes.
-- **Save & Load Graphs**: Save and load custom graphs for future use.
+## **📽️ Demo Video**  
+🎥 Watch how **SmartRoute** works:  
+🔗 [https://www.youtube.com/watch?v=X7mcFjgEkA4]  
 
-## Installation
+---
 
-1. **Clone the repository:**
+## ** Installation Guide**  
 
-   ```bash
-   git clone https://github.com/yourusername/indian-route-optimizer.git
-   cd indian-route-optimizer
-   ```
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/yourusername/SmartRoute.git
+cd SmartRoute
+```
 
-2. **Create a virtual environment:**
+### **2️⃣ Create a Virtual Environment**  
+```bash
+python -m venv venv
+```
 
-   ```bash
-   python -m venv venv
-   ```
+### **3️⃣ Activate the Virtual Environment**  
+🔹 **Windows:**  
+```bash
+venv\Scripts\activate
+```
+🔹 **Mac/Linux:**  
+```bash
+source venv/bin/activate
+```
 
-3. **Activate the virtual environment:**
+### **4️⃣ Install Dependencies**  
+```bash
+pip install -r requirements.txt
+```
 
-   - On Windows:
+---
 
-     ```bash
-     venv\Scripts\activate
-     ```
+## **▶️ Running the Application**  
+To start the **SmartRoute** web app, run:  
+```bash
+streamlit run route_optimization.py
+```
+Then open your browser and go to **[http://localhost:8501](http://localhost:8501)**  
 
-   - On macOS and Linux:
+---
 
-     ```bash
-     source venv/bin/activate
-     ```
+## **📜 License**  
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.  
 
-4. **Install the dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. **Run the Streamlit app:**
-
-   ```bash
-   streamlit run route_optimization.py
-   ```
-
-2. **Open your browser** and go to `http://localhost:8501` to view the app.
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- [Streamlit](https://streamlit.io/)
-- [Folium](https://python-visualization.github.io/folium/)
-- [NetworkX](https://networkx.org/)
-
-## Contact
-
-For any questions or suggestions, please contact [dev.dhruvin.0.1@gmail.com](mailto:yourname@example.com).
