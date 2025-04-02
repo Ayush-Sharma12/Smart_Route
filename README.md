@@ -1,10 +1,10 @@
 
-# ** SmartRoute - Indian Cities Optimizer & Dijkstra's Visualization**  
- **SmartRoute** is a powerful web application that helps users find the shortest path between **Indian cities** using **Dijkstra's Algorithm**. It not only computes the optimal route but also provides an **interactive visualization** of how the algorithm works!  
+# SmartRoute - Indian Cities Optimizer & Dijkstra's Visualization  
+ SmartRoute is a powerful web application that helps users find the shortest path between **Indian cities** using **Dijkstra's Algorithm**. It not only computes the optimal route but also provides an **interactive visualization** of how the algorithm works!  
 
 ---
 
-## ** Features**  
+##  Features  
 **Route Optimization:** Quickly find the shortest path between two Indian cities.  
 **Interactive Map:** The route is dynamically displayed using **Folium**.  
 **Dijkstra’s Visualization:** Step-by-step animation of how the algorithm finds the shortest path.  
@@ -13,13 +13,13 @@
 
 ---
 
-## **📽️ Demo Video**  
+## 📽️ Demo Video  
 🎥 Watch how **SmartRoute** works:  
-🔗 [https://www.youtube.com/watch?v=X7mcFjgEkA4]  
+🔗 https://www.youtube.com/watch?v=X7mcFjgEkA4 
 
 ---
 
-## ** Installation Guide**  
+##  Installation Guide  
 
 ### **1️⃣ Clone the Repository**  
 ```bash
