@@ -15,7 +15,7 @@
 
 ## 📽️ Demo Video  
 🎥 Watch how **SmartRoute** works:  
-🔗 https://www.youtube.com/watch?v=X7mcFjgEkA4 
+🔗 https://youtu.be/X7mcFjgEkA4 
 
 ---
 
